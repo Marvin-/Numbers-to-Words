@@ -18,6 +18,10 @@ class NumberToWordsTest < MiniTest::Test
       487.to_words.must_equal("Four Hundred Eighty Seven")
       1000.to_words.must_equal("One Thousand")
       5432.to_words.must_equal("Five Thousand Four Hundred Thirty Two")
+      11100.to_words.must_equal("Eleven Thousand One Hundred")
+      17844.to_words.must_equal("Seventeen Thousand Eight Hundred Fourty Four")
+      20000.to_words.must_equal("Twenty Thousand")
+      33333.to_words.must_equal("Thirty Three Thousand Three Hundred Thirty Three")
     end
   end
 end
